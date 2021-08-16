@@ -7,6 +7,8 @@
 <title>はじめてのJSP</title>
 </head>
 <body>
-こんにちは、From Java Server Pages!
+<h1>こんにちは、From Java Server Pages!</h1>
+
+<%=java.util.Calendar.getInstance().getTime()%>
 </body>
 </html>
